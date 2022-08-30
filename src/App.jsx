@@ -1,6 +1,10 @@
 import TaskCreator from "./components/TaskCreator";
 
 const App = () => {
-  return <TaskCreator />;
+  return (
+    <div className="">
+      <TaskCreator />
+    </div>
+  );
 };
 export default App;
